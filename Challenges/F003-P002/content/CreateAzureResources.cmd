@@ -1,6 +1,7 @@
 SET Environment_name=%1
 SET ResourceGroup_name=%2
 
+
 REM create appservice plan
 call az appservice plan create -g "%ResourceGroup_name%" -n "AppServicePlan-TeamName-%Environment_name%" --sku F1
 
