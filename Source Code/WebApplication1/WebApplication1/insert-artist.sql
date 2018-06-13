@@ -1,3 +1,3 @@
 Insert into TestArtist 
 values
-(3, '#{Name}#')
+(10, '#{Name}#')
