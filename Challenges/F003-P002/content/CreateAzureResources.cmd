@@ -1,5 +1,5 @@
-SET Environment_name=%0
-SET ResourceGroup_name=%1
+SET Environment_name=%2
+SET ResourceGroup_name=%4
 
 
 REM create appservice plan
